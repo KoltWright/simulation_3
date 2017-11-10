@@ -1,0 +1,62 @@
+body {
+  background-image: linear-gradient(99deg, #ff70a6, #ff9770 40%, #ffd670 73%, #e9ff70);
+}
+
+#auth-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.auth-login {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column;
+  align-items: center;
+  border-radius: 8px;
+  background-image: linear-gradient(128deg, rgba(64, 61, 57, 0.1), rgba(255, 255, 255, 0.2));
+  box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.25), 0 10px 10px 0 rgba(0, 0, 0, 0.26);
+}
+
+.auth-login-upper {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auth-login-lower {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+img {
+  width: 120px;
+  height: 114px;
+  margin-bottom: 40px;
+}
+h1 {
+  font-family: Open Sans,sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 100px;
+  margin: 0px;
+}
+
+.auth-button {
+  border-radius: 5px;
+  background-color: #403D39;
+  /*background-image: radial-gradient(circle at 50% -46%, #737373, #403d39);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);*/
+  color: white;
+  font-family: Open Sans,sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 10px 100px;
+}
