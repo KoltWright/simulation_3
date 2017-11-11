@@ -1,0 +1,17 @@
+body {
+  background-color: #F2F2F2;
+}
+
+.body-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.body-upper {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}

@@ -8,7 +8,7 @@ class Auth extends Component {
       <div id="auth-container">
         <div className='auth-login'>
         <div className="auth-login-upper">
-          <img src="auth-logo.png" />
+          <img className="auth-logo-img" src="auth-logo.png" alt="Auth Logo"/>
           <h1>Helo</h1>
         </div>
         <div className="auth-login-lower">

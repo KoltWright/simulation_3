@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import './App.css';
+import router from './router.js';
 
-import Auth from './components/Auth/Auth.js';
-import Navbar from './components/Navbar/Navbar.js';
+import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Auth />
+        {router}
       </div>
     );
   }
