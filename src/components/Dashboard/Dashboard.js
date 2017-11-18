@@ -1,8 +1,19 @@
 import React, {Component} from 'react';
 import Navbar from '../Navbar/Navbar.js';
+import axios from 'axios';
 import './Dashboard.css';
 
 class Dashboard extends Component {
+  componentDidMount() {
+    console.log("it did mount")
+    // axios.get('http://localhost:3001/api/auth/setUser')
+    //   .then(res => {
+    //     console.log(res.user);
+    //   })
+    //   .catch(err => {
+    //     console.log(err);
+    //   })
+  }
   render() {
     return (
       <div>

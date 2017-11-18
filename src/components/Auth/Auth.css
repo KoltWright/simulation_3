@@ -52,11 +52,17 @@ h1 {
 .auth-button {
   border-radius: 5px;
   background-color: #403D39;
-  /*background-image: radial-gradient(circle at 50% -46%, #737373, #403d39);
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);*/
   color: white;
   font-family: Open Sans,sans-serif;
   font-weight: 400;
   font-size: 20px;
   padding: 10px 100px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
 }

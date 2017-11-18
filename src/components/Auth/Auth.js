@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import {Link} from 'react-router-dom';
 import './Auth.css';
 
 class Auth extends Component {
@@ -12,7 +12,7 @@ class Auth extends Component {
           <h1>Helo</h1>
         </div>
         <div className="auth-login-lower">
-          <div className="auth-button">Login \ Register</div>
+          <a className="auth-button" href="http://localhost:3001/api/auth/login">Login \ Register</a>
         </div>
         </div>
       </div>
